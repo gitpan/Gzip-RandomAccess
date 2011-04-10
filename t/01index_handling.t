@@ -92,7 +92,7 @@ my $gzip = Gzip::RandomAccess->new({
 ok( $gzip, 'hashref argument style' );
 
 SKIP: {
-    skip "Test::Exception needed for exception tests" => 4 if $no_test_exception;
+    skip "Test::Exception needed for exception tests" => 3 if $no_test_exception;
     for my $sub qw(file index_file cleanup) {
         throws_ok { $gzip->$sub(1) } qr/^Usage:/, "$sub usage";
     }

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Gzip-RandomAccess
-version:            0.9
+version:            0.91
 abstract:           ~
 author:  []
 license:            unknown

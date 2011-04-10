@@ -5,7 +5,7 @@ use warnings;
 use Carp;
 use XSLoader;
 
-our $VERSION = '0.9';
+our $VERSION = '0.91';
 XSLoader::load 'Gzip::RandomAccess', $VERSION;
 
 my $DEFAULT_INDEX_SPAN = 1024 * 1024;
